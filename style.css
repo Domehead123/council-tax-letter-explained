@@ -1,0 +1,128 @@
+body {
+    font-size: 16px;
+    text-align: center;
+}
+
+.letter {
+    padding: 3%;
+    border: 1px solid black; 
+    max-width: 784px;
+    margin: 40px auto;
+    text-align: left; 
+    -moz-box-shadow: 5px 5px 5px 0px rgba(166, 163, 163, 1);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(166, 163, 163, 1);
+     box-shadow: 5px 5px 5px 0px rgba(166,163,163,1); 
+}
+
+.address {
+    width: 30%; 
+    text-align: left; 
+    margin-left: 10px; 
+    float: right; 
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.top-left-corner {
+    float: left; 
+    max-width: 60%;
+}
+
+
+.letter-body {
+    clear: both;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.centre {
+    text-align: center;
+}
+
+
+/*arrow styling*/
+
+.arrow-box {
+    width: 100%; 
+    text-align: center;
+}
+
+.arrow-head {
+    margin: 0px auto; 
+    top: 1px; 
+    width: 0px; 
+    height: 0px; 
+    border-right-color: transparent; 
+    border-bottom-color: rgb(204, 204, 204); 
+    border-left-color: transparent; 
+    border-right-width: 20px; 
+    border-bottom-width: 20px; 
+    border-left-width: 20px; 
+    border-right-style: solid; 
+    border-bottom-style: solid; 
+    border-left-style: solid; 
+    position: relative;
+}
+
+.arrow-stem {
+    margin: 0px auto; 
+    width: 18px; 
+    height: 15px; 
+    background-color: rgb(204, 204, 204);
+}
+
+.arrow-panel {
+    padding: 10px; 
+    border-radius: 5px; 
+    width: auto; 
+    height: auto; 
+    font-weight: bold; 
+    background-color: rgb(204, 204, 204);
+}
+
+.arrow-panel p {
+    font-size: 1.25em;
+    margin: 0px;
+}
+
+/*tables*/
+
+.cost-table {
+    margin: 0px auto; 
+    width: 80%; 
+    font-size: 0.7em; 
+    display: table;
+}
+
+.payment-table {
+    margin: 0px auto; 
+    width: 90%; 
+    display: table;
+}
+
+
+.row {
+    display: table-row;
+}
+
+.left-cell {
+    display: table-cell;
+    width: 38%;
+}
+
+.middle-cell {
+    display: table-cell;
+    width: 7%;
+}
+
+.right-cell {
+    display: table-cell;
+    width: 35%;
+}
+
+.cell {
+    display: table-cell;
+    width: 50%;
+}
